@@ -82,7 +82,7 @@ class ProductController extends Controller
             Storage::delete($img);
         }
 
-        return redirect()->route('productos.index')->with('mensaje', 'Producto actualizado.');
+        return redirect()->route('products.index')->with('mensaje', 'Producto actualizado.');
     }
 
     /**
